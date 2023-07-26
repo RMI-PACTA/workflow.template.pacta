@@ -17,9 +17,6 @@ You can then begin to work on your workflow using the `demo.R` file as a basis, 
 
 These are a handful of guidelines for some best practices in developing a reproducible workflow repository. Please consider this when writing one yourself!
 
-* Avoid using relative paths. Whenever possible, keep track of all relevant paths in the same place (a `config.yml` or `.env` file is useful for this)
-* Use a `.Rmd` for any reports, or similar outputs
-* Document HOW to run the workflow as much as possible in the `README.md`
 
 ### Consider Logically Separating Your Code into the "Data Science Pipeline"
 
@@ -54,7 +51,7 @@ At the beginning of your script, explicitly state all required R packages and th
 
 Always try to keep dependencies to a minimum, and remove those that are unused.
 
-### Always Manipulate Data Through A Script!
+### Always Manipulate Data Through a `.R` or `.Rmd` File!
 
 If you want to be truly reproducible, then STOP OPENING EXCEL!
 
