@@ -1,6 +1,19 @@
 # workflow.template.pacta
 This repository can be used as a template for all PACTA workflow repositories. It includes typical workflow scaffolding, and an explanation of good practices for developing a workflow.
 
+## How to use this template
+
+When you are starting a new workflow, you may choose to: 
+* Click "New Repository" on GitHub
+* Select this repository as a "template"
+
+After this, you should submit a PR that changes the names in the following files to suit the name of your new repository:
+* `*.Rproj` file
+* `LICENSE` file
+* `README.md`
+
+You can then begin to work on your workflow using the `demo.R` file as a basis, and document how to run the workflow using the `README.md`.
+
 ## Guidelines for writing a reproducible workflow (WIP)
 
 These are a handful of guidelines for some best practices in developing a reproducible workflow repository. Please consider this when writing one yourself!
