@@ -9,7 +9,6 @@ When you are starting a new workflow, you may choose to:
 
 After this, you should submit a PR that changes the names in the following files to suit the name of your new repository:
 * `*.Rproj` file
-* `LICENSE` file
 * `README.md`
 
 You can then begin to work on your workflow using the `demo.R` file as a basis, and document how to run the workflow using the `README.md`.
